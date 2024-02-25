@@ -29,79 +29,39 @@
 ## Installation
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ yarn run start
+$ npm run start
 
 # watch mode
-$ yarn run start:dev
+$ npm run start:dev
 
 # production mode
-$ yarn run start:prod
+$ npm run start:prod
 ```
 
-## Running commands
-
-# GET
-$ http://localhost:3333/task
-
-#Answer
-$ list of tasks
-
-
-# GET
-$ http://localhost:3333/task/2
-
-#Answer
-$ task description
-
-# POST
-$ http://localhost:3333/task
-
-$body
-{
-    "name": "new video"
-}
-
-#add task
-
-#Answer
-$ task description
-
-# PATCH
-$ http://localhost:3333/task/3
-
-#change the task status
-
-#Answer
-$ task description
-
-# DEL
-$ http://localhost:3333/task/5
-
-#delete a task
-
-#Answer
-$ task description
-
-
+## Documentation
+```bash
+$ npm run start:dev
+```
+$ http://localhost:3333/api
 
 ## Test
 
 ```bash
 # unit tests
-$ yarn run test
+$ npm run test
 
 # e2e tests
-$ yarn run test:e2e
+$ npm run test:e2e
 
 # test coverage
-$ yarn run test:cov
+$ npm run test:cov
 ```
 
 ## Support
